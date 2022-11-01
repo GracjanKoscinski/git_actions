@@ -3,3 +3,5 @@ def silnia(n):
 		return 1
 	else:
 		return n * silnia(n-1)
+def sumowanie(a,b):
+	return a+b
