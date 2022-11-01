@@ -5,3 +5,6 @@ def silnia(n):
 		return n * silnia(n-1)
 def sumowanie(a,b):
 	return a+b
+	
+def test_sumowanie():
+	assert sumowanie(3,2) == 5
